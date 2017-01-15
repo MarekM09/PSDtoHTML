@@ -182,3 +182,39 @@ h2 {
 	vertical-align: middle;
 	margin-right: 20px;
 }
+#app-features .container {
+	text-align: center;
+	padding: 50px 20px;
+}
+.app-features {
+	color: #8a8a8a;
+	margin-bottom: 30px;
+}
+.features-para {
+	font-family: 'Helvetica';
+	color: #545454;
+	font-size: 22px;
+	line-height: 32px;
+	padding: 0 100px;
+}
+.row {
+	margin-top: 70px;
+	overflow: hidden;
+}
+.col-4-app {
+	width: 33.33%;
+	float: left;	
+	padding: 0 50px;
+} 
+.col-4-app p {
+	font-family: 'HelveticaNeue-Thin';
+	font-size: 18px; 
+	color: #989898;
+}
+.col-4-app h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 20px 0;
+	font-weight: 700;
+	color: #1a1a1a;
+}
