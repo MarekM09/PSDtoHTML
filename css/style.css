@@ -76,7 +76,7 @@ table {
 	.margin-bottom-40 {
 		margin-bottom: 40px;
 	}
-	strong, b {
+	.bold {
 		font-weight: 700;
 	}
 	em, i {
@@ -107,6 +107,7 @@ body {
 	position: relative;
 	overflow: hidden;
 	padding: 40px 20px;
+	color: #ffffff;
 }
 #hero {
 	background-image: linear-gradient(rgba(218, 51, 45, 0.6), rgba(218, 51, 45, 0.6)), url('../img/hero-bg.png');
@@ -259,4 +260,50 @@ h2 {
 .download-btn:hover {
 	background-color: #c33934;
 	transition: .3s;
+}
+footer {
+	background-color: #2e2e38; 
+}
+footer .container {
+	padding: 120px 30px;
+}
+.col-4-footer {
+	width: 33.33%;
+	float: left;
+	padding-right: 80px;
+}
+footer h4 {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.about-para {
+	font-size: 15px;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}
+.ul-posts li,
+.ul-tweets li {
+	font-size: 15px;
+	line-height: 20px;
+	margin: 25px 0;
+}
+.ul-posts li {
+	padding-left: 70px;
+	padding-right: 40px;
+}
+.redish-bg {
+	background-image: url('../img/red-rectangle.png');
+	background-repeat: no-repeat;
+}
+.ul-tweets {
+	padding-right: 30px
+}
+.tweet-time {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	margin-top: 5px;
+}
+.block {
+	display: block;
 }
