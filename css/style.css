@@ -123,7 +123,7 @@ h2 {
 	display: inline-block;
 }
 .nav li a {
-	color: white;
+	color: #ffffff;
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-left: 30px;
@@ -132,11 +132,11 @@ h2 {
 	transition: border-bottom .3s, color .3s;
 }
 .nav li a:hover {
-	border-bottom: 3px solid white;
+	border-bottom: 3px solid #ffffff;
 	transition: border-bottom .3s, color .3s;
 }
 #hero h2 {
-	color: white;
+	color: #ffffff;
 	margin-bottom: 40px;
 }
 .cta {
@@ -161,14 +161,14 @@ h2 {
 .hero-para {
 	font-family: 'HelveticaNeue-Thin';
 	font-size: 36px;
-	color: white;
+	color: #ffffff;
 	line-height: 40px;
 	margin-bottom: 55px;
 }
 .cta-button {
 	padding: 23px 35px;
 	background-color: #282828;
-	color: white;
+	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	border-radius: 50px;
