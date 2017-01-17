@@ -326,6 +326,31 @@ footer h4 {
 	padding: 0 30px;
 	border-right: 3px solid black;
 }
-.fb {
+.fb,
+.dr,
+.tw {
 	margin-left: 30px;
+}
+.iphone-on{
+	width: 54%;
+	position: absolute;
+	right: 174px;
+	top: 110px;
+}
+.iphone-btn{
+	position: absolute;
+	right: 215px;
+}
+.js-wp-2 {
+	opacity: 0;
+}
+.js-wp-2.animated {
+	opacity: 1;
+}
+.js-wp-3 {
+	opacity: 0;
+	animation-delay: 3.2s;
+}
+.js-wp-3.animated {
+	opacity: 1;
 }
