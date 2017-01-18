@@ -128,13 +128,13 @@ h2 {
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-left: 30px;
-	border-bottom: 3px solid transparent;
-	padding-bottom: 4px;
-	transition: border-bottom .3s, color .3s;
+	padding-bottom: 3px;
+	border-bottom: 4px solid #ffffff transparent;
+	transition: border-bottom .1s, color .1s;
 }
 .nav li a:hover {
-	border-bottom: 3px solid #ffffff;
-	transition: border-bottom .3s, color .3s;
+	border-bottom: 4px solid #ffffff;
+	transition: border-bottom .1s, color .1s;
 }
 #hero h2 {
 	color: #ffffff;
@@ -225,7 +225,7 @@ h2 {
 	background-position: center;
 }
 #nose .container {
-	padding: 150px 20px;
+	padding: 100px 20px;
 }
 .download-info {
 	width: 65%;
@@ -319,12 +319,17 @@ footer h4 {
 .inline {
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 25px;
+	font-size: 15px;
 }
 .cr,
 .me {
-	padding: 0 30px;
-	border-right: 3px solid black;
+	padding-right: 30px;
+	border-right: 2px solid black;
+}
+.me {
+	text-decoration: none;
+	padding-left: 30px;	
+	color: #000000;
 }
 .fb,
 .dr,
@@ -354,3 +359,97 @@ footer h4 {
 .js-wp-3.animated {
 	opacity: 1;
 }
+
+@media only screen and (max-width: 1240px) {
+	.cta-info {
+		padding-right: 40px;
+	}
+	#nose .container {
+		padding: 50px 20px;
+	}
+	.download-info {
+		width: 70%;
+		text-align: center;
+	}
+	.nose-para {
+	width: 100%;
+	}
+}
+@media only screen and (max-width: 820px) {
+	.iphone,
+	.iphone-on,
+	.iphone-btn {
+		display: none;
+	}
+	.cta-info {
+		width: 100%;
+		text-align: center;
+	}
+	.features-para {
+		padding: 0 30px;
+	}
+	.col-4-app {
+		width: 100%;
+		float: none;
+		margin-bottom: 40px;
+	}
+	.row h3 {
+		margin: 15px 0;
+	}
+	.fb,
+	.dr,
+	.tw {
+		margin-top: 20px;
+	}
+	.me {
+		border-right: none;
+	}
+	.col-4-footer {
+		width: 100%;
+		float: none;
+	}
+	.navbar {
+		overflow: hidden;
+		position: absolute;
+		right: 30px;
+		top: 50px;
+		display: block;
+		z-index: 9;
+	}
+	.burger-nav {
+		background: url('../img/hamburger.png') no-repeat 100% center;
+		display: block;
+		height: 31px;
+		width: 40px;
+		cursor: pointer;
+		float: right;
+	}
+	.container nav ul {
+		height: 0;
+		overflow: hidden;
+		background: #282828;
+		border-radius: 10px;
+		margin-top: 20px;
+	}
+	.container nav ul.open {
+		height: auto;
+		clear: both;
+	}
+	.nav li {
+		float: none;
+		text-align: right;
+		display: block;
+		width: auto;
+		margin: 0;
+	}
+	.nav li a {
+		color: #ffffff;
+		padding: 10px;
+		display: block;
+		margin: 0;
+	}
+	.nav li a:hover {
+		border: none;
+		background-color: #383737;
+	}
+}	
